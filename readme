@@ -1,0 +1,39 @@
+# Project Title :  Air Pollution Analysis and Policy Development Using Data Mining
+
+## Description
+This project aims to analyze air pollution using data mining techniques to develop sustainable policies. Utilizing a robust dataset, the project employs various clustering methods to understand air pollutant distribution and its impact. The goal is to provide nuanced insights for policymakers on environmental challenges.
+
+## File Structure
+
+- `Section1-Packages`: A notebook containing all the packages and libraries required for the project.
+- `Section2-Preprocessing`: This notebook includes all preprocessing steps such as dataset compilation, dropping NA values, applying a land mask, and log transformation and standardization.
+- `Section3-Clustering`: This notebook covers clustering methods including the elbow method and silhouette scores.
+- `Section4-ClusteringAnalysisAndVisualization`: Contains the clustering analysis and visualization, including cluster means and heatmaps.
+- `Section5-ClusterTrajectory`: A notebook dedicated to analyzing the trajectory of clusters over time.
+- `Section6-ClusterMapsOverDecade`: This notebook includes visualizations of cluster maps over different decades and animated GIFs of these maps.
+- `Section7-Results`: Summarizes the findings and results of the project.
+
+## How to Run the Notebooks
+
+1. Ensure Jupyter Notebook is installed. Install via [Anaconda](https://www.anaconda.com/products/individual) or `pip install notebook`.
+2. Navigate to the project directory using a command line or terminal.
+3. Run `jupyter notebook` to start the server.
+4. Open the `.ipynb` files in your browser.
+5. Execute the notebook cells in sequence.
+
+
+## Dependencies
+
+Install the required libraries using the following command:
+
+```bash
+pip install numpy pandas matplotlib scikit-learn seaborn
+
+
+## Contributors
+Vaibhav Rungta
+Himanshu Borole
+Akash Vishwakarma
+Shantanu Jhaveri
+
+
